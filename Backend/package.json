@@ -1,0 +1,41 @@
+{
+  "name": "parking_management_system",
+  "version": "1.0.0",
+  "description": "A backend for smart car parking system in mern  ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules index.js"
+  },
+  "keywords": [
+    "MongoDb",
+    "ExpressJs",
+    "NodeJs",
+    "API",
+    "Mongoose"
+  ],
+  "author": "Utkarsh Upadhyay",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie": "^1.0.1",
+    "cookie-parser": "^1.4.7",
+    "cookies": "^0.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mogodb": "^0.0.1-security",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "node-cron": "^3.0.3",
+    "stripe": "^17.2.1"
+  }
+}
